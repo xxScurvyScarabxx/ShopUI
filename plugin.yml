@@ -1,9 +1,9 @@
-name: EasyShop
+name: ALPE-SHOP
 main: EasyShop\Main
 version: 0.0.1
 api: [3.0.0-ALPHA8, 3.0.0-ALPHA9]
-author: Potatoe
-description: By Stuff With A GUI
+author: Kirito
+description: Buy And Sell Stuff With A GUI
 commands:
  shop:
-  description: Opens The GUI
+  description: Buy And Sell From ALPE SHOP
