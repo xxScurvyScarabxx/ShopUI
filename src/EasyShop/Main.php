@@ -113,7 +113,6 @@ public $Blocks = [
 
   public $Potions = [
     "ICON" => ["Potions",374,0],
-    "Glass Bottle" => [374,0,500,0],
     "Water Bottle" => [373,0,750,0],
     "Night Vision [3:00]" => [373,5,1000,0],
     "Leaping [3:00]" => [373,9,1000,0],
