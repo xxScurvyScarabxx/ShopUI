@@ -154,14 +154,14 @@ public $Blocks = [
 
   public $Spawners = [
     "ICON" => ["Spawners",52,0],
-    "Chicken" => [52,10,10000,5000],
-    "Cow" => [52,11,10000,5000],
-    "Sheep" => [52,13,10000,5000],
-    "Skeleton" => [52,34,15000,10000],
-    "Zombie" => [52,32,25000,15000],
-    "Blaze" => [52,43,50000,25000],
-    "Iron Golem" => [52,20,1000000,500000],
-    "Zombie Pigman" => [52,36,100000,50000]
+    "Chicken" => [52,10,100000,5000],
+    "Cow" => [52,11,100000,5000],
+    "Sheep" => [52,13,100000,5000],
+    "Skeleton" => [52,34,115000,10000],
+    "Zombie" => [52,32,225000,15000],
+    "Blaze" => [52,43,350000,25000],
+    "Iron Golem" => [52,20,2000000,500000],
+    "Zombie Pigman" => [52,36,1000000,50000]
   ];
 
   public function onEnable(){
@@ -175,7 +175,7 @@ public $Blocks = [
   }
 
   public function sendMainShop(Player $player){
-    $ui = new SimpleForm("§lGiveAway Shop§r","              Buy And Sell Items Here!");
+    $ui = new SimpleForm("§lcChalix§4MC§7 Shop§r","              §fBuy And Sell Items Here!");
     foreach($this->item as $category){
       if(isset($category["ICON"])){
         $rawitemdata = $category["ICON"];
@@ -192,7 +192,7 @@ public $Blocks = [
   }
 
   public function sendShop(Player $player, $id){
-    $ui = new SimpleForm("§lNether Factions Shop§r","              Buy And Sell Items Here!");
+    $ui = new SimpleForm("§lcChalix§4MC§7 Shop§r","              §fBuy And Sell Items Here!");
     $ids = -1;
     foreach($this->item as $category){
       $ids++;
