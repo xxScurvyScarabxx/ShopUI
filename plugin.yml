@@ -1,5 +1,5 @@
 name: ChalixShop
-main: ChalixShop\Main
+main: EasyShop\Main
 version: 2.0
 api: [3.0.0-ALPHA8, 3.0.0-ALPHA9]
 author: Kirito
