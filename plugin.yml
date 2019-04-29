@@ -1,4 +1,4 @@
-name: &1ChalixShop
+name: ChalixShop
 main: ChalixShop\Main
 version: 2.0
 api: [3.0.0-ALPHA8, 3.0.0-ALPHA9]
@@ -6,4 +6,4 @@ author: Kirito
 description: Buy And Sell Stuff With A GUI
 commands:
  shop:
-  description: &4Buy And Sell From Chalix SHOP
+  description: Buy And Sell From Chalix SHOP
