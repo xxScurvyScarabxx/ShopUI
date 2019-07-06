@@ -175,7 +175,7 @@ public $Blocks = [
   }
 
   public function sendMainShop(Player $player){
-    $ui = new SimpleForm("§lcChalix§4MC§7 Shop§r","              §fBuy And Sell Items Here!");
+    $ui = new SimpleForm("§lcYolo§4Craft§7 Shop§r","              §fBuy And Sell Items Here!");
     foreach($this->item as $category){
       if(isset($category["ICON"])){
         $rawitemdata = $category["ICON"];
@@ -192,7 +192,7 @@ public $Blocks = [
   }
 
   public function sendShop(Player $player, $id){
-    $ui = new SimpleForm("§lcChalix§4MC§7 Shop§r","              §fBuy And Sell Items Here!");
+    $ui = new SimpleForm("§cYolo§4Craft§7 Shop§r","              §fBuy And Sell Items Here!");
     $ids = -1;
     foreach($this->item as $category){
       $ids++;
